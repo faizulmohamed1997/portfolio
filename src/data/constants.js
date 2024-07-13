@@ -1,5 +1,5 @@
 export const Bio = {
-  name: "AJITH M",
+  name: "FAIZUL MOHAMED A",
   HeroImg:"images/heroImage.png",
   roles: [
     "Full Stack Developer",
