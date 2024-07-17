@@ -129,7 +129,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://images.app.goo.gl/Qn8Szt1DzKq6LXqy5",
+    img: "https://upload.wikimedia.org/wikipedia/commons/b/b9/Tamil_Nadu_Emblem.png",
     role: "Website  Developer",
     company: "National Informatic Center",
     date: "Dec 2023 - Mar 2024",
@@ -147,7 +147,7 @@ export const experiences = [
   },
   {
     id: 1,
-    img: "https://images.app.goo.gl/PzAULMvqRzFWhokx8",
+    img: "https://upload.wikimedia.org/wikipedia/commons/b/b9/Tamil_Nadu_Emblem.png",
     role: "Website Developer",
     company: "National Informatic Center",
     date: "Apr 2023 - Jun 2023",
