@@ -14,7 +14,7 @@ const Navbar = ({ toggleTheme }) => {
       <NavbarContainer>
         <NavLogo to='/'>
           <h3 style={{ display: "flex", alignItems: "center", color: theme.text_primary, marginBottom: '20', cursor: 'pointer' }}>
-            <DiCssdeck size="3rem" /> <Span>AJITH M</Span>
+            <DiCssdeck size="3rem" color="#3af6ec"/> <Span>FAIZUL MOHAMED A</Span>
           </h3>
         </NavLogo>
         <MobileIcon>

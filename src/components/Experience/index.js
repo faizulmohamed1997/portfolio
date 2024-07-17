@@ -61,14 +61,7 @@ const Desc = styled.div`
 `;
 
 const TimelineSection = styled.div`
-  width: 100%;
-  max-width: 1000px;
-  margin-top: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 12px;
+
 `;
 
 const index = () => {
@@ -84,9 +77,9 @@ const index = () => {
             {experiences.map((experience, index) => (
               <TimelineItem>
                 <TimelineSeparator>
-                  <TimelineDot variant="outlined" color="secondary" />
+                  <TimelineDot variant="outlined" color="primary" />
                   {index !== experiences.length - 1 && (
-                    <TimelineConnector style={{ background: "#854CE6" }} />
+                    <TimelineConnector style={{ background: "#3af6ec" }} />
                   )}
                 </TimelineSeparator>
                 <TimelineContent sx={{ py: "12px", px: 2 }}>

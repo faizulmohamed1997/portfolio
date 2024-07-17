@@ -81,7 +81,7 @@ const index = () => {
     return (
         <Container id="education">
             <Wrapper>
-                <Title>Education</Title>
+                <Title color='3af6ec'>Education</Title>
                 <Desc>
                     My education has been a journey of self-discovery and growth. My educational details are as follows.
                 </Desc>
@@ -93,8 +93,8 @@ const index = () => {
                                     <EducationCard education={education}/>
                                 </TimelineContent>
                                 <TimelineSeparator>
-                                    <TimelineDot variant="outlined" color="secondary" />
-                                    {index !== experiences.length  && <TimelineConnector style={{ background: '#854CE6' }} />}
+                                    <TimelineDot variant="outlined" color="primary" />
+                                    {index !== experiences.length  && <TimelineConnector style={{ background: '#3af6ec' }} />}
                                 </TimelineSeparator>
                             </TimelineItem>
                         ))}

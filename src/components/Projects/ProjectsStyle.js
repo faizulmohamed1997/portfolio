@@ -2,8 +2,8 @@ import styled from 'styled-components';
 import _default from '../../themes/default';
 
 export const Container = styled.div`
-    background: linear-gradient(343.07deg, rgba(132, 59, 206, 0.06) 5.71%, rgba(132, 59, 206, 0) 64.83%);
-    display: flex;
+background: linear-gradient(343.07deg, rgba(0, 255, 212, 0.06) 5.71%, rgba(58, 246, 236, 0) 64.83%);
+display: flex;
     flex-direction: column;
     justify-content: center;
     position: relative;

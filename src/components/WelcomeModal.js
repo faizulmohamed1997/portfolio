@@ -38,7 +38,7 @@ const ModalContent = styled.div`
 `;
 
 const CloseButton = styled.button`
-  background-color: #854ce6;
+  background-color: #2cd6cd;
   color: #f2f5f7;
   border: none;
   border-radius: 5px;
@@ -60,7 +60,7 @@ const LinkedInLink = styled.a`
   position: relative;
 
   &:hover {
-    color: #854ce6;
+    color: #2cd6cd;
   }
 `;
 
@@ -94,7 +94,7 @@ const PhoneLink = styled.a`
   position: relative;
 
   &:hover {
-    color: #854ce6;
+    color: #2cd6cd;
   }
 `;
 
@@ -139,7 +139,7 @@ const InfoIconWrapper = styled.div`
   position: relative;
 
   &:hover {
-    color: #854ce6;
+    color: #2cd6cd;
   }
 `;
 
@@ -177,19 +177,19 @@ const WelcomeModal = ({ isVisible, onClose }) => {
                 <InfoIconWrapper>
             <InfoIcon />
             <InfoTooltip>
-              Portfolio - Ajith M, Full Stack Developer
+              Portfolio - FAIZUL MOHAMED A, Website Developer
             </InfoTooltip>
           </InfoIconWrapper>
 
-          <h2 style={{ color: '#854ce6', marginBottom: '15px' }}>Welcome to My World of Creation!</h2>
+          <h2 style={{ color: '#3af6ec', marginBottom: '15px' }}>Welcome to My World of Creation!</h2>
           <p style={{ color: '#575c66', marginBottom: '10px' }}>Hello there! I'm excited to share my work with you.</p>
           <p style={{ color: '#575c66', marginBottom: '10px' }}>Feel free to browse through my projects and learn more about my skills and experiences.</p>
           <p style={{ color: '#575c66', marginBottom: '10px' }}>If you have any questions or would like to collaborate, don't hesitate to reach out!</p>
           <p style={{ color: '#575c66', marginBottom: '10px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             Looking forward to connect! &nbsp; 
-            <LinkedInLink href="https://www.linkedin.com/in/ajithkumar22/" target="_blank">
+            <LinkedInLink href="https://www.linkedin.com/in/faizul-mohamed-259a311a6/" target="_blank">
               <IconWrapper><LinkedInIcon /></IconWrapper>
-              <LinkedInTooltip>Ajith M</LinkedInTooltip>
+              <LinkedInTooltip>FAIZUL MOHAMED A</LinkedInTooltip>
             </LinkedInLink>
             <PhoneLink href="tel:+918754083032">
               <IconWrapper><MobileFriendlyIcon /></IconWrapper>

@@ -64,7 +64,8 @@ const Card = styled.div`
     -webkit-line-clamp: unset;
   }
 
-  border: 0.1px solid #306ee8;
+  // Experience Box outline
+  border: 0.1px solid #3af6ec;
   box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
 `;
 
@@ -88,6 +89,7 @@ const Body = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
+
 `;
 
 const Role = styled.div`
@@ -118,7 +120,7 @@ const Date = styled.div`
 `;
 
 const Skills = styled.div`
-  width: 100%;
+  width: 1000%;
   display: flex;
   gap: 12px;
   margin-top: -10px;

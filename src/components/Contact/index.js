@@ -101,14 +101,19 @@ const ContactInputMessage = styled.textarea`
   }
 `;
 
+//113 background: hsla(271, 100%, 50%, 1);
+//114 background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+//115 background: -moz-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+// background: -webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+
 const ContactButton = styled.button`
   width: 100%;
   text-decoration: none;
   text-align: center;
-  background: hsla(271, 100%, 50%, 1);
-  background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-  background: -moz-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-  background: -webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+  background: hsla(191, 100%, 50%, 1); /* Fallback for older browsers */
+  background: linear-gradient(225deg, #00ffd4 0%, #3af6ec 100%);
+  background: -moz-linear-gradient(225deg, #00ffd4 0%, #3af6ec 100%);
+   background: -webkit-linear-gradient(225deg, #00ffd4 0%, #3af6ec 100%);
   padding: 13px 16px;
   margin-top: 2px;
   border-radius: 12px;
@@ -155,7 +160,7 @@ export default function Contact() {
     setButtonText("Sending...");
     const formData = new FormData(event.target);
   
-    formData.append("access_key", "5f9c3e60-1613-4794-8673-a21147099627");
+    formData.append("access_key", "33a0eeca-73a9-4b5a-ad8f-336ab0767581");
   
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",

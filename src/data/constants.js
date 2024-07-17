@@ -1,3 +1,5 @@
+import { Percent } from "@mui/icons-material";
+
 export const Bio = {
   name: "FAIZUL MOHAMED A",
   HeroImg:"images/heroImage.png",
@@ -5,18 +7,18 @@ export const Bio = {
     "Full Stack Developer",
     "React Developer",
     "Web Developer",
-    "Python Developer",
+    "PHP Developer",
   ],
   description:
     "Motivated Computer Science graduate with a passionfor web development and proficiency in React.JS. Seeking an entry level position as a Full Stack Developer to leverage my skills and contribute to building dynamic and responsive web applications.",
-  github: "https://github.com/Ajith5104",
+  github: "https://github.com/faizulmohamed1997",
   resume:
     "https://drive.google.com/file/d/134VXsfVWEkzSpycgOVJCmmcGn-HWS_2w/view?usp=sharing",
-  linkedin: "https://www.linkedin.com/in/ajithkumar22/",
-  email: "mailto:ajithkumar51046@gmail.com",
+  linkedin: "https://www.linkedin.com/in/faizul-mohamed-259a311a6/",
+  email: "mailto:faizulmohamed1997@gmail.com",
   insta: "https://www.instagram.com/ajithtechy22/",
-  phone: "tel:+918754083032",
-  whatsapp: 8754083032,
+  phone: "tel:+918508000708",
+  whatsapp: 8508000708,
 };
 
 export const skills = [
@@ -127,42 +129,39 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://yt3.googleusercontent.com/cpHhJGzb0OUOma6hiSk-TrELWisv_PUGx9GMc01HlS5BzmSnWPBEYEROl9DJ57_vwHzX9yzi=s900-c-k-c0x00ffffff-no-rj",
-    role: "Full Stack Developer Intern",
-    company: "KaaShiv InfoTech",
+    img: "https://images.app.goo.gl/Qn8Szt1DzKq6LXqy5",
+    role: "Website  Developer",
+    company: "National Informatic Center",
     date: "Dec 2023 - Mar 2024",
-    desc: "As a Full Stack Developer Intern, I contributed to the design and development of scalable software solutions. My responsibilities included building both front-end and back-end components and troubleshooting code, and collaborating with cross-functional teams.",
+    desc: "The Website is bilingual consisting of Tamil and English, The Website has been developed as a dynamic website so that it can be updated by the Transport Commissionerate nodal section itself. GIGW guidelines and differently able friendly Website.",
+    // desc: "As a Full Stack Developer, I contributed to the desig  n and development of scalable software. My responsibilities included building both front-end and back-end components and troubleshooting code, and collaborating with cross-functional teams.",
     skills: [
-      "React",
+      "PHP",
       "JavScript",
-      "NodeJS",
-      "ExpressJs",
       "HTML5",
       "CSS3",
       "Bootstrap",
-      "MSSQL",
-      "MongoDB",
-      "Git",
-      "GitHub",
+      "Postgres",
     ],
-    credentials:"images/mern.jpg"
+    // credentials:"images/mern.jpg"
   },
   {
     id: 1,
-
-    img: "https://media.licdn.com/dms/image/C510BAQEmJOdwPERyXA/company-logo_200_200/0/1630581621973/shiash_info_solutions_private_limited_logo?e=2147483647&v=beta&t=b_ZA_THGpWEuyLVKvAd32tXGN0o1rBjgbBsmMOtykrQ",
-    role: "Python Developer Intern",
-    company: "Shiash Info Solutions Private Limited",
+    img: "https://images.app.goo.gl/PzAULMvqRzFWhokx8",
+    role: "Website Developer",
+    company: "National Informatic Center",
     date: "Apr 2023 - Jun 2023",
     desc: "During my Python Developer internship, I excelled in day-to-day tasks while absorbing new technologies and gaining practical insights into real-world project execution and software life cycles. Interactions with senior developers provided valuable mentorship and firsthand industry experience, which greatly enhanced my proficiency and understanding of professional software development practices.",
     skills: [
-      "Python",
-      "Git",
-      "GitHub",
-      "SQL",
+      "Java",
+      "JQuery",
+      "HTML5",
+      "CSS3",
+      "Bootstrap",
+      "Postgres",
     ],
-    credentials:"images/shiash.jpg",
-    cer:"Certificate",
+    // credentials:"images/shiash.jpg",
+    // cer:"Certificate",
   },
 ];
 export const education = [
@@ -170,23 +169,45 @@ export const education = [
     id: 1,
 
     school:
-      "Dr.R.K. Shanmugam college of arts and science  Affiliated Annamalai University",
-    date: "2022-2024",
-    grade: "Pursuing",
+      "The Gandhigram Rural Institute-Deemed to be University",
+    date: "2018-2021",
+    grade: "58%",
     desc: "",
-    degree: "Master of Computer Science",
+    degree: "Master of Computer Applications",
   },
   {
     id: 2,
 
     school:
-      "Dr.R.K. Shanmugam college of arts and science Affiliated Thiruvalluvar University",
-    date: "2019-2022",
-    grade: "7.88",
+      "G.T.N. Arts College",
+    date: "2015-2018",
+    grade: "64%",
     desc: "",
     degree: "Bachelor of Computer Science",
   },
+
+  {
+    id: 3,
+    school:
+      "C.S.M.A.Higher Secondary School",
+    date: "2015",
+    grade: "54%",
+    desc: "",
+    degree: "HSC",
+  },
+
+  {
+    id: 4,
+    school:
+      "M.S.P. Solai Nadar Memorial Higher Secondary School",
+    date: "2015",
+    grade: "67%",
+    desc: "",
+    degree: "SSLC",
+  },
 ];
+
+
 
 export const projects = [
   {
@@ -244,7 +265,7 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2024, text: "Dr.R.K.Shanmugam College of Arts and Science" },
-  { year: 2024, text: "master's Computer Science" },
-  { year: 2024, text: "Started my career as Full Stack Developer" },
+  { year: 2021, text: "The Gandhigram Rural Institute-Deemed to be University" },
+  { year: 2021, text: "Master of Computer Applications" },
+  { year: 2021, text: "Started my career as Website Developer" },
 ];

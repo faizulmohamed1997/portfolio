@@ -40,7 +40,7 @@ const ModalContent = styled.div`
 `;
 
 const CloseButton = styled.button`
-  background-color: #854ce6;
+  background-color: #2cd6cd;
   color: #f2f5f7;
   border: none;
   border-radius: 5px;
@@ -62,7 +62,7 @@ const LinkedInLink = styled.a`
   position: relative;
 
   &:hover {
-    color: #854ce6;
+    color: #2cd6cd;
   }
 `;
 
@@ -96,7 +96,7 @@ const PhoneLink = styled.a`
   position: relative;
 
   &:hover {
-    color: #854ce6;
+    color: #2cd6cd;
   }
 `;
 
@@ -131,7 +131,7 @@ const InfoIconWrapper = styled.div`
   position: relative;
 
   &:hover {
-    color: #854ce6;
+    color: #2cd6cd;
   }
 `;
 
@@ -182,7 +182,7 @@ const Modal = ({ isOpen, closeModal }) => {
             </InfoTooltip>
           </InfoIconWrapper>
 
-          <h2 style={{ color: '#854ce6', marginBottom: '20px' }}>Welcome to My World of Creation!</h2>
+          <h2 style={{ color: '#2cd6cd', marginBottom: '20px' }}>Welcome to My World of Creation!</h2>
           <p style={{ color: '#575c66', marginBottom: '10px' }}>Hello there! I'm excited to share my work with you.</p>
           <p style={{ color: '#575c66', marginBottom: '10px' }}>Feel free to browse through my projects and learn more about my skills and experiences.</p>
           <p style={{ color: '#575c66', marginBottom: '10px' }}>If you have any questions or would like to collaborate, don't hesitate to reach out!</p>
@@ -192,7 +192,7 @@ const Modal = ({ isOpen, closeModal }) => {
               <IconWrapper><LinkedInIcon /></IconWrapper>
               <LinkedInTooltip>Ajith M</LinkedInTooltip>
             </LinkedInLink>
-            <PhoneLink href="tel:+918754083032">
+            <PhoneLink href="tel:+918508000708">
               <IconWrapper><MobileFriendlyIcon /></IconWrapper>
               <PhoneTooltip>Contact Me</PhoneTooltip>
             </PhoneLink>

@@ -107,7 +107,7 @@ const YourComponent = () => {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Ajith M</Logo>
+        <Logo>FAIZUL MOHAMED A</Logo>
         <Nav>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
@@ -160,7 +160,7 @@ const YourComponent = () => {
             </SocialMediaIcon>
           </CustomTooltip>
         </SocialMediaIcons>
-        <Copyright>&copy; 2024 Ajith. All rights reserved.</Copyright>
+        <Copyright>&copy; 2024 FAIZUL MOHAMED. All rights reserved.</Copyright>
       </FooterWrapper>
     </FooterContainer>
   );
