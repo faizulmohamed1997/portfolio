@@ -220,8 +220,8 @@ export const projects = [
       "images/projectimg/home.jpg",
     tags: ["React","NodeJS","ExpressJS","MongoDB","Bootstrap","Stripe API","Mailtrap API"],
     category: "webApp",
-    github: "https://github.com/Ajith5104/greensCart",
-    webapp: "https://github.com/Ajith5104/greensCart",
+    // github: "https://github.com/Ajith5104/greensCart",
+    // webapp: "https://github.com/Ajith5104/greensCart",
   },
   {
     id: 1,
@@ -233,8 +233,8 @@ export const projects = [
       "images/projectimg/weather.jpg",
     tags: ["HTML", "CSS", "JavaScript", "Openweathermap API"],
     category: "webApp",
-    github: "https://github.com/Ajith5104/Weather-Forecasting-Web-App",
-    webapp: "https://weather-live-application.netlify.app/",
+    // github: "https://github.com/Ajith5104/Weather-Forecasting-Web-App",
+    // webapp: "https://weather-live-application.netlify.app/",
   },
   {
     id: 2,
@@ -246,8 +246,8 @@ export const projects = [
       "images/projectimg/organicmart.jpg",
     tags: ["HTML", "CSS","Bootstrap","Email Service API"],
     category: "website",
-    github: "https://github.com/Ajith5104/Organic_Mart",
-    webapp: "https://organicmart.netlify.app/",
+    // github: "https://github.com/Ajith5104/Organic_Mart",
+    // webapp: "https://organicmart.netlify.app/",
   },
   {
     id: 3,
@@ -259,8 +259,8 @@ export const projects = [
       "images/projectimg/tatabyebye.jpg",
     tags: ["HTML", "CSS","javaScript","Bootstrap","PHP","MySQL","Tawk chatbot   API "],
     category: "website",
-    github: "https://github.com/Ajith5104/Tourism-Website",
-    webapp: "https://github.com/Ajith5104/Tourism-Website/",
+    // github: "https://github.com/Ajith5104/Tourism-Website",
+    // webapp: "https://github.com/Ajith5104/Tourism-Website/",
   },
 ];
 
