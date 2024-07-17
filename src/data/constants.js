@@ -2,7 +2,7 @@ import { Percent } from "@mui/icons-material";
 
 export const Bio = {
   name: "FAIZUL MOHAMED A",
-  HeroImg:"images/heroImage.png",
+  HeroImg:"images/heroImage.jpg",
   roles: [
     "Full Stack Developer",
     "React Developer",
@@ -13,7 +13,7 @@ export const Bio = {
     "Motivated Computer Science graduate with a passionfor web development and proficiency in React.JS. Seeking an entry level position as a Full Stack Developer to leverage my skills and contribute to building dynamic and responsive web applications.",
   github: "https://github.com/faizulmohamed1997",
   resume:
-    "https://drive.google.com/file/d/134VXsfVWEkzSpycgOVJCmmcGn-HWS_2w/view?usp=sharing",
+    "https://docs.google.com/document/d/1f4l08rFG0C99GAnyBIHpysJ7gZFLP6hg/edit?usp=sharing&ouid=116151440375493537273&rtpof=true&sd=true",
   linkedin: "https://www.linkedin.com/in/faizul-mohamed-259a311a6/",
   email: "mailto:faizulmohamed1997@gmail.com",
   insta: "https://www.instagram.com/ajithtechy22/",
@@ -129,7 +129,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://upload.wikimedia.org/wikipedia/commons/b/b9/Tamil_Nadu_Emblem.png",
+    img: "images/tnlogo.jpg",
     role: "Website  Developer",
     company: "National Informatic Center",
     date: "Dec 2023 - Mar 2024",
@@ -147,7 +147,7 @@ export const experiences = [
   },
   {
     id: 1,
-    img: "https://upload.wikimedia.org/wikipedia/commons/b/b9/Tamil_Nadu_Emblem.png",
+    img: "images/tnlogo.jpg",
     role: "Website Developer",
     company: "National Informatic Center",
     date: "Apr 2023 - Jun 2023",
