@@ -95,7 +95,7 @@ const Copyright = styled.p`
 `;
 
 const YourComponent = () => {
-  const yourWhatsAppNumber = "+918754083032";
+  const yourWhatsAppNumber = "+918508000708";
   const handleWhatsAppClick = () => {
     const defaultMessage = " ";
     const whatsappLink = `https://wa.me/${yourWhatsAppNumber}?text=${encodeURIComponent(
@@ -153,7 +153,7 @@ const YourComponent = () => {
           {/* GitHub Icon with Custom Tooltip */}
           <CustomTooltip title="GitHub" arrow>
             <SocialMediaIcon
-              href="https://github.com/Ajith5104"
+              href="https://github.com/faizulmohamed1997"
               target="_blank"
             >
               <GitHubIcon />

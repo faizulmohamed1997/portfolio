@@ -16,7 +16,7 @@ export const Bio = {
     "https://docs.google.com/document/d/1f4l08rFG0C99GAnyBIHpysJ7gZFLP6hg/edit?usp=sharing&ouid=116151440375493537273&rtpof=true&sd=true",
   linkedin: "https://www.linkedin.com/in/faizul-mohamed-259a311a6/",
   email: "mailto:faizulmohamed1997@gmail.com",
-  insta: "https://www.instagram.com/ajithtechy22/",
+  insta: "https://www.instagram.com/faizulmd45/",
   phone: "tel:+918508000708",
   whatsapp: 8508000708,
 };

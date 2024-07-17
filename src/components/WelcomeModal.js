@@ -191,7 +191,7 @@ const WelcomeModal = ({ isVisible, onClose }) => {
               <IconWrapper><LinkedInIcon /></IconWrapper>
               <LinkedInTooltip>FAIZUL MOHAMED A</LinkedInTooltip>
             </LinkedInLink>
-            <PhoneLink href="tel:+918754083032">
+            <PhoneLink href="tel:+918508000708">
               <IconWrapper><MobileFriendlyIcon /></IconWrapper>
               <PhoneTooltip>Contact Me</PhoneTooltip>
             </PhoneLink>
